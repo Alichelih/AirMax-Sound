@@ -1,0 +1,376 @@
+
+body {
+    margin: 10;
+    padding: 10;
+    font-family: Arial, sans-serif;
+}
+html {
+    scroll-behavior: smooth;
+ }
+
+.header {
+    height: 50px;
+    display: flex;
+    font-family: Arial, sans-serif;
+}
+.header a{
+    margin-top: 18px;
+    font-family: monospace;
+    margin-left: 50px;
+    color: black;
+    text-decoration: none;
+
+}
+.header a:hover{
+    color: orange;
+
+}
+.container1{
+    margin-top :90px; ;
+
+    width: 100%;
+    height: 700px;
+    background-size: cover;
+    display: flex;
+}
+.header h5{
+    font-family: monospace;
+    font-size: 15px;
+    margin-left: 190px;
+    padding-bottom: 20px;
+
+}
+
+.header ul{
+    padding-top: 7px;
+    font-family: monospace;
+    font-size: 15px;
+    margin-left: 290px;
+    padding-bottom: 0;
+
+}
+.content1{
+    margin-top: 120px;
+    margin-left: 150px;
+}
+.b1{
+    width: 100px;
+    height: 40px;
+    font-family: monospace;
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 130px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+.b1:hover{
+    cursor: pointer;
+    color: rgb(12, 13, 13);
+    background-color: rgb(251, 249, 249);
+}
+.container1 img{
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 70px;
+    height: 350px;
+    cursor: pointer;
+    box-shadow: black ;
+    overflow: hidden;
+    transition: 0.5s ease;
+
+}
+.container1 img:hover{
+    transform: scale(1.1);
+}
+.container1 h1{
+    animation: slideDown 4s ease-out forwards;
+    opacity: 0; 
+    color:  black;
+    font-family: monospace;
+    font-size: 40px;
+}
+.container1 h3{
+    color:  black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    margin-left: 40px;
+}
+@keyframes slideDown {
+    from {
+        transform: translateX(-80%); 
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0); 
+        opacity: 1;
+      }
+}
+.content2{
+    margin-left: 200px;
+    margin-top: 90px;
+    width: 80%;
+    height: 20%;
+
+}
+.cart{
+    justify-content: center;
+    border: solid ;
+    background-color: rgba(255, 255, 255, 0.629);
+    border-radius: 9px;
+    margin-left: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    width: 200px;
+    height: 288px;
+}
+.cart img{
+    margin-left: 50px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+    overflow: hidden;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.cart img:hover{
+    transform: scale(1.1);
+}
+.container3 img{
+    overflow: hidden;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.container3 img:hover{
+    transform: scale(1.1);
+}
+.cart h4{
+    margin-left: 70px;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cart button{
+    width: 100px;
+    height: 40px;
+    font-family: monospace;
+    color: whitesmoke;
+    background-color: black;
+    margin-left: 50px;
+    border-radius: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.cart button:hover{
+    background-color: aliceblue;
+    color: black;
+    cursor: pointer;
+    font-family: monospace;
+}
+.content3{
+    display: flex;
+    padding-top: 10px;
+}
+.content4{
+    display: flex;
+}
+.container3{
+    padding-bottom: 50px;
+    display: flex;
+    padding-left: 40px;
+}
+.container3 img{
+    width: 450px;
+    height: 450px;
+    margin-left: 170px;
+    margin-bottom: 50px;
+}
+.container3 div{
+    margin-left: 50px;
+}
+.container3 div p{
+    width: 500px;
+    font-family: monospace;
+    font-size: x-large;
+}
+.container3 div p{
+    width: 500px;
+    font-family: monospace;
+    font-size: x-large;
+}
+.container3 div h5{
+    width: 500px;
+    font-family: monospace;
+    font-size: 50px;
+}
+.container4{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 96px;
+
+}
+.container4 img{
+    cursor: pointer;
+    box-shadow: black ;
+    overflow: hidden;
+    transition: 0.5s ease;
+    margin-left: 50px;
+    width: 150px;
+}
+.container4 img:hover{
+    transform: scale(1.1);
+}
+.m3{
+    margin-top: 70px;
+    width: 130px;
+    height: 50px;
+}
+.m4{
+    margin-top: 60px;
+    width: 130px;
+    height: 60px;
+    margin-bottom: 60px;
+}
+
+
+.container5{
+    margin-top: 60px;
+    display: flex;
+    margin-left: 400px;
+    margin-bottom: 40px ;
+    padding-top: 90px;
+}
+.container5 ul{
+    list-style: none;
+    margin-left: 20px;
+    
+}
+.container5 ul a{
+    margin-top: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: monospace;
+    font-size: 40;
+}
+.container5 div{
+    margin-top: 20px;
+    margin-left: 200px;
+
+}
+
+.container5 div input{
+    font-family: cursive;
+    height: 30px;
+    border-radius: 5px;
+    width: 250px;
+
+}
+
+#titre{
+    margin-left: 120px;
+    font-family: monospace;
+    font-size: 20px;
+    padding-top: 95px;
+    color: orange;
+}
+#titre2{
+    margin-left: 100px;
+    font-family: monospace;
+    font-size: 15px;
+    color: orange;
+}
+#titre2:hover{
+    margin-left: 100px;
+    cursor: pointer;
+}
+body {
+    background-color: white;
+    color: black;
+    transition: background-color 0.5s, color 0.5s;
+}
+
+body.dark-mode {
+    background-color: black;
+    color: white;
+}
+.dark-mode a{
+    color: white;
+}
+.dark-mode .cart{
+    background-color: black;
+}
+
+.dark-mode img{
+    color: white;
+}
+.dark-mode .container5 ul li a{
+    color: white;
+}
+.dark-mode .container4 img{
+    color: white;
+}
+.dark-mode .content1 h1{
+    color: white;
+}
+.dark-mode .content1 h3{
+    color: white;
+}
+.dark-mode button{
+    color: white;
+    border: white solid;
+    border-radius: 10px;
+}
+.dark-mode button:hover{
+    background-color: white;
+    color: rgb(0, 0, 0);
+    border: white solid;
+}
+.dark-mode .C4{
+    color: white;
+}
+
+#theme-toggle {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    padding: 10px 20px;
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-family: monospace;
+}
+
+#theme-toggle:hover {
+    background-color: orange;
+    color: black;
+}
+
+.content11{
+    height: 200px;
+    padding-top: 140px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.C4{
+    font-family: sans-serif;
+    cursor: pointer;
+    animation: slideDown 2s ease-out infinite alternate;
+    font-size: 10px;
+    margin-left: 10px;
+    
+}
+
+
+@keyframes slideDown {
+    from {
+        transform: translateX(-100%); 
+        opacity: 0;
+      }
+      to {
+        transform: translateX(0); 
+        opacity: 1;
+      }
+}
+
