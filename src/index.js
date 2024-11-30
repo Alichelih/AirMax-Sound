@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import App from './Calculatrice/Apk';
+import App from './App/App';
 
 
 const element = document.getElementById("root");
